@@ -1,0 +1,315 @@
+1719316202217|16|statement|select * from information_schema.sequences
+1719316202341|2|statement|select * from "public"."adresse" where 1=0
+1719316202361|2|statement|select * from "public"."ecole" where 1=0
+1719316202378|2|statement|select * from "public"."etudiant" where 1=0
+1719316202386|1|statement|select * from "public"."projet" where 1=0
+1719316489434|2|statement|select e1_0.etudiant_id,e1_0.ecole_id,e1_0.nom,e1_0.prenom from etudiant e1_0 offset 0 rows fetch first 10 rows only
+1719316489445|0|commit|
+1719316489450|0|statement|select e1_0.etudiant_id,e1_0.ecole_id,e1_0.nom,e1_0.prenom from etudiant e1_0
+1719316489452|0|commit|
+1719316593332|11|statement|select * from information_schema.sequences
+1719316593430|4|statement|select * from "public"."adresse" where 1=0
+1719316593460|12|statement|select * from "public"."ecole" where 1=0
+1719316593474|2|statement|select * from "public"."etudiant" where 1=0
+1719316593481|1|statement|select * from "public"."projet" where 1=0
+1719316596910|1|statement|select e1_0.etudiant_id,e1_0.ecole_id,e1_0.nom,e1_0.prenom from etudiant e1_0 offset 0 rows fetch first 10 rows only
+1719316596918|0|commit|
+1719316596921|0|statement|select e1_0.etudiant_id,e1_0.ecole_id,e1_0.nom,e1_0.prenom from etudiant e1_0
+1719316596923|0|commit|
+1719316611821|0|statement|select e1_0.etudiant_id,e1_0.ecole_id,e1_0.nom,e1_0.prenom from etudiant e1_0 where e1_0.etudiant_id=1
+1719316611822|0|commit|
+1719316813813|120|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316813821|1|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316813842|2|statement|insert into etudiant_projet (etudiant_id,projet_id) values (1,1)
+1719316813846|1|commit|
+1719316820154|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316820156|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316820158|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (2,2)
+1719316820159|0|commit|
+1719316861442|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316861445|1|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316861447|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (3,3)
+1719316861449|1|commit|
+1719316861583|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316861585|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316861587|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (4,4)
+1719316861596|8|commit|
+1719316861711|1|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316861713|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316861715|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (5,5)
+1719316861716|0|commit|
+1719316861848|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316861849|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316861852|1|statement|insert into etudiant_projet (etudiant_id,projet_id) values (6,6)
+1719316861853|0|commit|
+1719316862012|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862013|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862015|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (7,7)
+1719316862033|18|commit|
+1719316862120|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862122|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862123|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (8,8)
+1719316862125|0|commit|
+1719316862232|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862233|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862234|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (9,9)
+1719316862236|0|commit|
+1719316862355|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862356|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862358|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (10,10)
+1719316862360|1|commit|
+1719316862512|1|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862513|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862514|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (11,11)
+1719316862515|0|commit|
+1719316862639|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862640|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862641|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (12,12)
+1719316862642|0|commit|
+1719316862779|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862780|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862781|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (13,13)
+1719316862795|12|commit|
+1719316862908|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316862909|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316862911|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (14,14)
+1719316862913|0|commit|
+1719316863071|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316863072|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316863074|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (15,15)
+1719316863090|15|commit|
+1719316863196|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316863197|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316863197|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (16,16)
+1719316863197|0|commit|
+1719316863350|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316863352|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316863353|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (17,17)
+1719316863354|0|commit|
+1719316863493|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316863495|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316863497|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (18,18)
+1719316863507|9|commit|
+1719316863635|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316863636|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316863637|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (19,19)
+1719316863654|15|commit|
+1719316863772|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316863773|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316863774|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (20,20)
+1719316863775|0|commit|
+1719316863917|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316863918|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316863920|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (21,21)
+1719316863928|7|commit|
+1719316864068|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316864069|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316864071|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (22,22)
+1719316864073|0|commit|
+1719316864218|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316864220|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316864221|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (23,23)
+1719316864223|0|commit|
+1719316864361|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316864362|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316864364|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (24,24)
+1719316864374|9|commit|
+1719316864515|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316864516|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316864517|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (25,25)
+1719316864518|0|commit|
+1719316864665|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316864666|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316864668|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (26,26)
+1719316864692|23|commit|
+1719316864802|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316864804|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316864805|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (27,27)
+1719316864806|0|commit|
+1719316864954|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316864956|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316864957|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (28,28)
+1719316864981|24|commit|
+1719316865119|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316865120|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316865121|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (29,29)
+1719316865132|10|commit|
+1719316865271|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316865272|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316865273|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (30,30)
+1719316865287|13|commit|
+1719316865408|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316865409|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316865410|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (31,31)
+1719316865412|0|commit|
+1719316865556|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316865558|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316865560|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (32,32)
+1719316865561|0|commit|
+1719316865720|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316865721|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316865723|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (33,33)
+1719316865737|13|commit|
+1719316865859|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316865861|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316865862|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (34,34)
+1719316865863|0|commit|
+1719316865999|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316866001|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316866002|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (35,35)
+1719316866009|7|commit|
+1719316866139|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316866140|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316866142|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (36,36)
+1719316866156|13|commit|
+1719316866282|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316866283|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316866284|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (37,37)
+1719316866285|0|commit|
+1719316866412|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316866413|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316866415|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (38,38)
+1719316866416|0|commit|
+1719316866555|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316866556|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316866558|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (39,39)
+1719316866565|7|commit|
+1719316866843|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316866845|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316866846|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (40,40)
+1719316866847|0|commit|
+1719316866965|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316866966|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316866967|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (41,41)
+1719316866969|0|commit|
+1719316867084|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867085|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867086|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (42,42)
+1719316867088|0|commit|
+1719316867191|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867193|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867195|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (43,43)
+1719316867196|0|commit|
+1719316867297|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867298|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867299|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (44,44)
+1719316867300|0|commit|
+1719316867397|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867398|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867398|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (45,45)
+1719316867398|0|commit|
+1719316867489|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867491|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867492|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (46,46)
+1719316867493|0|commit|
+1719316867608|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867609|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867611|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (47,47)
+1719316867612|0|commit|
+1719316867723|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867724|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867726|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (48,48)
+1719316867728|1|commit|
+1719316867817|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867819|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867820|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (49,49)
+1719316867821|0|commit|
+1719316867933|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316867934|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316867935|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (50,50)
+1719316867936|1|commit|
+1719316868051|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316868052|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316868053|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (51,51)
+1719316868054|0|commit|
+1719316868172|1|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316868173|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316868175|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (52,52)
+1719316868177|0|commit|
+1719316868251|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316868252|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316868253|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (53,53)
+1719316868254|0|commit|
+1719316868353|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316868354|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316868355|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (54,54)
+1719316868356|0|commit|
+1719316868470|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316868471|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316868473|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (55,55)
+1719316868475|0|commit|
+1719316868603|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316868604|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316868605|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (56,56)
+1719316868607|1|commit|
+1719316868715|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316868716|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316868717|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (57,57)
+1719316868718|0|commit|
+1719316869489|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316869490|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316869492|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (58,58)
+1719316869494|1|commit|
+1719316869912|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316869914|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316869915|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (59,59)
+1719316869916|1|commit|
+1719316870059|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316870060|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316870062|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (60,60)
+1719316870070|8|commit|
+1719316870181|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316870183|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316870184|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (61,61)
+1719316870185|0|commit|
+1719316870312|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316870313|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316870314|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (62,62)
+1719316870315|0|commit|
+1719316870434|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316870435|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316870436|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (63,63)
+1719316870437|0|commit|
+1719316870534|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316870551|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316870552|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (64,64)
+1719316870553|0|commit|
+1719316871705|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316871706|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316871708|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (65,65)
+1719316871710|1|commit|
+1719316871850|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316871851|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316871853|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (66,66)
+1719316871860|6|commit|
+1719316871981|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316871982|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316871983|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (67,67)
+1719316871985|0|commit|
+1719316872091|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316872092|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316872093|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (68,68)
+1719316872094|0|commit|
+1719316872183|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316872185|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316872186|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (69,69)
+1719316872187|0|commit|
+1719316872301|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316872302|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316872303|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (70,70)
+1719316872304|0|commit|
+1719316872423|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316872425|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316872426|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (71,71)
+1719316872428|0|commit|
+1719316872544|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316872545|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316872546|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (72,72)
+1719316872547|0|commit|
+1719316872653|0|statement|insert into etudiant (ecole_id,nom,prenom) values (NULL,'Sollier','Melvin')
+1719316872654|0|statement|insert into projet (nom_projet) values ('Projet 1')
+1719316872656|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (73,73)
+1719316872657|0|commit|
+1719317023780|4|statement|select e1_0.etudiant_id,e1_0.ecole_id,e1_0.nom,e1_0.prenom from etudiant e1_0 where e1_0.etudiant_id=1
+1719317023788|0|commit|
+1719317023796|3|statement|select p1_0.etudiant_id,p1_1.projet_id,p1_1.nom_projet from etudiant_projet p1_0 join projet p1_1 on p1_1.projet_id=p1_0.projet_id where p1_0.etudiant_id=1
